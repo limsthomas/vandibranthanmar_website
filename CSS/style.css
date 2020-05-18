@@ -1,0 +1,158 @@
+body{
+    color: rgb(0, 0, 0);
+    background: rgb(252, 251, 253);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+
+
+#main-header{
+    color: white;
+    font-size: 25px;
+    background: rgb(240, 129, 129);
+    text-align: center center;
+    padding: 75px 0;
+    position: relative;
+}
+
+
+
+#main-header img{
+    position: absolute;
+    right: 20%;
+    bottom: 7%;
+    background: rgb(240, 129, 129);
+    border-radius: 80%;
+    
+}
+
+
+#navbar{
+    color: rgb(249, 249, 252);
+    background: rgb(82, 17, 180);
+    padding: 15px 0;
+    min-height: 75px;
+    position: sticky;
+    top: 0;
+}
+
+#navbar ul{
+    padding: 0em;
+    list-style: none;
+}
+
+#navbar li{ 
+    display: inline;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 17px 0;
+    padding-right: 18px;
+    font-size: 18px;
+}
+
+li .current {
+    color: #ec9177;
+}
+
+
+#navbar a:hover{
+    color: white;
+    font-size: 20px;
+}
+
+#navbar a:active{
+    font-size: 18px;
+}
+
+#showcase {
+    color: white;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 45px; 
+    line-height: 2em;
+    background-image: url('../Images/bugatti.jpeg' ),linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)) ;
+    background-blend-mode: overlay ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center ;
+    padding-top: 80px ;
+    padding-bottom: 100px;
+    
+}
+
+#main{
+    float: left;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    word-spacing: 1px;
+    line-height: 1.3em;
+    width: 60%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#main h1{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 22px;
+    background: grey;
+    border: black 4px dotted;
+    margin-top: 45px;
+    padding-bottom: 100px;
+    color: honeydew;
+    position: relative;
+}
+
+#sidebar img{
+    position: absolute;
+}
+
+#sidebar img:hover{
+    width: 300px;
+    height: 200px;
+}
+
+#main-footer{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+#main-footer strong{
+    font-size: 30px;
+    font-weight: 800;
+    padding: 5px;
+}
+
+#main-footer a{
+    text-decoration: none;
+    font-weight: 1000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main-footer a :hover{
+    font-size: 33px;
+}
