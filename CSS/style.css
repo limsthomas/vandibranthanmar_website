@@ -13,7 +13,28 @@ body{
     overflow: auto;
 }
 
+.marquee {
+    animation:scrolling 35s linear infinite ; 
+    color:rgb(228, 228, 106);
+    font-size: 1.3em;
+}
 
+@keyframes scrolling {
+    0% { transform: translateX(80vw);}
+    100% { transform: translateX(-180vw);}
+}
+
+.blinking{
+    animation:blinkingText 1.2s infinite;
+    font-size: 2em;
+}
+@keyframes blinkingText{
+    0%{     color: rgb(253, 80, 80);    }
+    49%{    color: rgb(15, 228, 15); }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: rgb(252, 252, 99);    }
+}
 
 #main-header{
     color: white;
